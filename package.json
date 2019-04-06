@@ -15,8 +15,7 @@
   },
   "devDependencies": {},
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SuphakornHomnan/NodeJSLab5.git"
+  
   },
   "author": "Suphakorn Homnan",
   "license": "ISC"
