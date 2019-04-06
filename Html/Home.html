@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="container mt-4">
+    <div align="center">
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#TH">TH</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
+          aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor02">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Home.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Content.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="About_us.html">About</a>
+            </li>
+          </ul>
+
+        </div>
+      </nav>
+
+      <br>
+      <!-- My details Block1 -->
+      <table align="center" width="80%">
+
+        <style>
+          td {
+            border: 1px solid black;
+          }
+
+          table {
+            border-spacing: 15px;
+          }
+        </style>
+        <tr padding:10px>
+          <td colspan="3">
+            <img align="right" src="Image/13.jpg" alt="me" usemap="#me" width="200" height="175">
+            <h2>&nbsp;&nbsp;&nbsp;Suphakorn Homnan</h2>
+            <h3>&nbsp;&nbsp;&nbsp;&nbsp;Student</h3>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+              href="https://mail.google.com/mail/u/0/?tab=wm#inbox">supakornhomnan@gmail.com</a>
+            <h6>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(+66)81-6711177</h6>
+          </td>
+        </tr>
+      </table>
+
+
+      <br>
+      <!-- My details Row2 Long -->
+
+      <table class="profilebox" width="80%">
+
+        <tr>
+          <td class="profileboxst">
+
+            <h1><img src="http://raazgram.ir/image/instagram/no-avatar.png" alt="" height="50px" width="50px">
+              Profile</h1><br>
+          </td>
+          <td class="profileboxnd" colspan="3">
+            <p align="left">I study at chiang mai university the faculty of engineering department of computer.</p>
+          </td>
+        </tr>
+
+
+        <tr>
+          <td class="profileboxst" rowspan="2">
+            <h1><img
+                src="data:image/png;base64,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"
+                alt="" height="40px" width="40px">
+              SKILLS</h1><br>
+          </td>
+          <td class="profileboxrd">
+            <h2>Programming</h2>
+          </td>
+          <td class="profileboxrd">
+            <h2>Conversation</h2>
+          </td>
+          <td class="profileboxrd">
+            <h2>Sport</h2>
+          </td>
+
+        </tr>
+
+        <tr>
+
+          <td>
+            <p>C++,C#,Java,Javascript,HTML5</p>
+          </td>
+          <td>
+            <p>English(intermediate)</p>
+          </td>
+          <td>
+            <p>Running and Boxing</p>
+          </td>
+        </tr>
+
+        <!-- <tr class="profileboxst">
+                <td>
+                    <h1><img src="https://png.pngtree.com/svg/20151212/a44c00969c.svg" alt="" height="50px"
+                            width="50px"> Technical</h1>
+                </td>
+
+                <td class="bigtext">
+                    <p>Lightroom</p>
+                    <p>Photoshop</p>
+                </td>
+                <td class="bigtext">
+                    <p>Premiere Pro</p>
+                    <p>After Effect</p>
+                    <p>Vegas Pro</p>
+                </td>
+                <td class="bigtext">
+                    <p>Lightroom</p>
+                    <p>Photoshop</p>
+                </td>
+            </tr> -->
+
+        <tr class="profileboxst">
+          <td>
+            <h1><img src="https://png.pngtree.com/svg/20160331/8ec5821e9c.svg" alt="" height="50px" width="50px">
+              Experience</h1>
+          </td>
+          <td class="profileboxdef" colspan="3">
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+            </div>
+            <br>
+            <h3>ENTANEER CHEERLEADER</h3>
+            <h5>CHEERLEADER</h5>
+            <h5>2017-2019</h5>
+
+
+
+
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75"
+                aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+            </div>
+          </td>
+
+        </tr>
+
+        <tr class="profileboxst">
+          <td>
+            <h1><img src="https://image.flaticon.com/icons/png/512/49/49944.png" alt="" height="50px" width="50px">
+              Education</h1>
+          </td>
+          <td class="profileboxdef" colspan="3">
+            <br>
+            <h4>Assumption College Lampang,Thailand</h4>
+            <p>Science and Math Classroom — <b>3.38 GPA</b></p>
+          </td>
+        </tr>
+
+      </table>
+
+
+      </table>
+      <p class="lastcredit">Suphakorn Homnan — <a class="refmail"
+          href="gmailto:supakornhomnan@gmail.com">supakornhomnan@gmail.com</a> — (+66) - 81-6711177
+      </p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main",
+    "dev": "nodemon main"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "module": "^1.2.5",
+    "node": "^11.12.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuphakornHomnan/NodeJSLab5.git"
+  },
+  "author": "Suphakorn Homnan",
+  "license": "ISC"
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    h3 {
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container mt-4">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#TH">TH</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
+        aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarColor02">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="Home.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Content.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="About_us.html">About</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+      <img align="right" src="Image/global.png" alt="me" usemap="#me" width="250" height="225">
+      <h1 class="display-3">Welcome everyone!</h1>
+      <p class="lead">This page is a Registration page,Give your information in to the gap for registration to system.
+      </p>
+      <hr class="my-4">
+      <p>Your information account is a secret,We will not reveal to public.
+      </p>
+      <br>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="About_us.html" role="button">About us</a>
+      </p>
+    </div>
+    <!--End-description-->
+
+    <form action="" id="my-form">
+    <table align="center" width="100%">
+      <tr>
+        <td>
+          
+            <table width='100%' align="center" style="padding: 15px;   border:1px solid;">
+              <div class="msg" align="right"></div>
+              <tr>
+                <td>
+                  <h3><label>Name:</label></h3>
+                </td>
+                <td><input type="name" class="form-control" placeholder="your name..." id="name"></td>
+              </tr>
+              <tr>
+                <td>
+                  <h3> <label>ID Card:</label></h3>
+                </td>
+                <td> <input type="id" class="form-control" placeholder="your id number..." id="idcard"> </td>
+              </tr>
+              <tr>
+                <td>
+                  <h3><label>Birth:</label></h3>
+                </td>
+                <td><input type="birth" class="form-control" placeholder="your birthday(day/month/year)" id="birthday">
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h3><label>Gender:</label></h3>
+                </td>
+                <td>
+                  <input type="radio" name="gender" value="male" id="gender"> male
+                  <input type="radio" name="gender" value="female" id="gender"> female
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h3><label>Phone:</label></h3>
+                </td>
+                <td><input type="phone" class="form-control" placeholder="your number..." id="phone"> </td>
+              </tr>
+              <tr>
+                <td>
+                  <h3><label>Email:</label></h3>
+                </td>
+                <td><input type="email" class="form-control" placeholder="your email..." id="email"></td>
+              </tr>
+
+            </table>
+
+            <input type="submit" value="Add your detail" class="btn btn-primary btn-block">
+
+            <!-- <br><div class="btn-group-vertical" data-toggle="buttons" >
+                                <button type="button" class="btn btn-primary" >Summit</button>
+                        </div> -->
+          </form>
+          <!--Output table-->
+          <table class="table table-striped mt-5">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>ID Card</th>
+                <th>Birth</th>
+                <th>Gender</th>
+                <th>Phone</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody id="list"></tbody>
+
+        </td>
+      </tr>
+    </table>
+    <p align="center">Suphakorn Homnan &mdash; <a
+        href="https://mail.google.com/mail/u/0/?tab=wm#inbox">supakornhomnan@gmail.com</a> &mdash; (+66) -
+      81-6711177</p>
+  </div>
+  <script src="app.js"></script>
+
+</body>
+
+</html>
